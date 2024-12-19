@@ -5,13 +5,12 @@
   --yellow-color: #efca39;
 }
 body {
-    
+    font-family: 'Courier New', Courier, monospace;
   background-color: var(--background-color);
 }
 .title {
-    font-family: "Creepster", serif;
   font-size: 128px;
-  font-family: "Creepster", serif;
+  font-weight: 400;
   color: blue;
   text-shadow: 1px 1px 1px red;
   animation: title 3s linear infinite;
