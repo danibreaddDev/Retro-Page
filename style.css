@@ -40,3 +40,13 @@ li {
   color: var(--blue-color);
   text-shadow: 1px 1px 1px var(--red-color);
 }
+.portada-img{
+  filter: drop-shadow(10px 10px 20px red) invert(75%);
+}
+.product-img{
+  transform: scale();
+  transition: all 1s ease;
+}
+.product-img:hover{
+  scale: 110%;
+}
