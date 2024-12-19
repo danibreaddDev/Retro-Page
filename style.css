@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+:root {
+  --background-color: black;
+  --yellow-color: #efca39;
+}
+body {
+    
+  background-color: var(--background-color);
+}
+.title {
+    font-family: "Creepster", serif;
+  font-size: 128px;
+  font-family: "Creepster", serif;
+  color: blue;
+  text-shadow: 1px 1px 1px red;
+  animation: title 3s linear infinite;
+}
+@keyframes title {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.description{
+    font-size: 24px;
+    color: var(--yellow-color);
+}
+li{
+    font-size: 36px;
+    list-style: none;
+}
+
