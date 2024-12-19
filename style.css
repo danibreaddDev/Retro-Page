@@ -1,18 +1,19 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
 :root {
   --background-color: black;
   --yellow-color: #efca39;
+  --blue-color: blue;
+  --red-color: red;
 }
 body {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   background-color: var(--background-color);
 }
 .title {
   font-size: 128px;
   font-weight: 400;
-  color: blue;
-  text-shadow: 1px 1px 1px red;
+  color: var(--blue-color);
+  text-shadow: 1px 1px 1px var(--red-color);
   animation: title 3s linear infinite;
 }
 @keyframes title {
@@ -26,12 +27,16 @@ body {
     transform: scale(1);
   }
 }
-.description{
-    font-size: 24px;
-    color: var(--yellow-color);
+.description {
+  font-size: 24px;
+  color: var(--yellow-color);
 }
-li{
-    font-size: 36px;
-    list-style: none;
+li {
+  font-size: 36px;
+  list-style: none;
 }
-
+.email {
+  font-size: 96px;
+  color: var(--blue-color);
+  text-shadow: 1px 1px 1px var(--red-color);
+}
